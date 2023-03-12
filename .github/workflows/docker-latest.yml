@@ -42,3 +42,5 @@ jobs:
           push: true
           tags: |
             chung1912/mirai-api-http:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
