@@ -52,3 +52,5 @@ jobs:
           push: true
           tags: |
             chung1912/mirai-api-http:${{ steps.vars.outputs.tag }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
