@@ -3,9 +3,9 @@
 [mirai-api-http](https://github.com/project-mirai/mirai-api-http) - 提供HTTP API供所有语言使用 mirai QQ 机器人
 
 ![Github stars](https://badgen.net/github/stars/chung1912/mirai-http-docker?icon=github&label=stars)
-[![Docker build latest](https://github.com/chung1912/mirai-http-docker/actions/workflows/docker-latest.yml/badge.svg?branch=browser-version)](https://github.com/chung1912/mirai-http-docker/actions/workflows/docker-latest.yml)
+[![Docker build latest](https://github.com/chung1912/mirai-http-docker/actions/workflows/docker-latest.yml/badge.svg?branch=main)](https://github.com/chung1912/mirai-http-docker/actions/workflows/docker-latest.yml)
 [![Docker Pulls](https://badgen.net/docker/pulls/chung1912/mirai-http-docker?icon=docker&label=pulls)](https://hub.docker.com/r/chung1912/mirai-http-docker/)
-[![Docker Image Size](https://badgen.net/docker/size/chung1912/mirai-http-docker/latest/amd64?icon=docker&label=image%20size)](https://hub.docker.com/r/chung1912/mirai-http-docker/)
+[![Docker Image Size](https://badgen.net/docker/size/chung1912/mirai-http-docker/latest/amd64?icon=docker&label=image%20size)](https://hub.docker.com/r/chung1912/mirai-api-http/)
 
 拉取镜像，创建容器
 <pre><code>docker run -d --restart=always --name="mirai-api-http" -p 8080:8080 -v /mirai/bots:/app/bots -v mirai/config:/app/config -v /mirai/data:/app/data chung1912/mirai-api-http:latest
