@@ -55,9 +55,11 @@ adapterSettings:
     host: localhost
     port: 8080
     reservedSyncId: -1
-</code></pre>
+```
+
 修改\config\Console下的AutoLogin.yml
-<pre><code>
+
+```text
 accounts:
   - # 账号, 现只支持 QQ 数字账号
     account: 123456
